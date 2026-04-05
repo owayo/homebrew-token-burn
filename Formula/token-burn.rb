@@ -1,16 +1,16 @@
 class TokenBurn < Formula
   desc "Consume AI coding assistant tokens before weekly reset"
   homepage "https://github.com/owayo/token-burn"
-  version "26.3.101"
+  version "26.4.100"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/owayo/token-burn/releases/download/v26.3.101/token-burn-aarch64-apple-darwin.tar.gz"
-      sha256 "8343b0eca7e6afd93f462189bcab8b5bdc6242b6015b0a50ee235cd2e9ec06e6"
+      url "https://github.com/owayo/token-burn/releases/download/v26.4.100/token-burn-aarch64-apple-darwin.tar.gz"
+      sha256 "413e1512410ccb4a54be1aa11553ad0d57eef9d322184332ff8b5b9b878d1b4b"
     else
-      url "https://github.com/owayo/token-burn/releases/download/v26.3.101/token-burn-x86_64-apple-darwin.tar.gz"
-      sha256 "33b500a4131fcf4907842f4b5edba701a919160f0a08a6ecea97a9cfa53a6ac2"
+      url "https://github.com/owayo/token-burn/releases/download/v26.4.100/token-burn-x86_64-apple-darwin.tar.gz"
+      sha256 "618cfe2f631e9cc929986ec143fff5d6cf5e234d94bce31c4ff66f280867e9c9"
     end
   end
 
