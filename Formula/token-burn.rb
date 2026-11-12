@@ -5,11 +5,11 @@ class TokenBurn < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/owayo/token-burn/releases/download/v26.11.100/token-burn-aarch64-apple-darwin.tar.gz"
-      sha256 "0d3ca8cc67c9a35ded85e531d15b8bc843a12b426b94e592551eed8f9e8b5a08"
+      url "https://github.com/owayo/token-burn/releases/download/v26.11.101/token-burn-aarch64-apple-darwin.tar.gz"
+      sha256 "0c0188efa8d7143ea84aa027c93a24ff81ede12588580d9241d6f3a0f1cbf38a"
     else
-      url "https://github.com/owayo/token-burn/releases/download/v26.11.100/token-burn-x86_64-apple-darwin.tar.gz"
-      sha256 "0faf220f8f18881784817b04c42238d799eeef3a0d0810a20cc35e02bca55d02"
+      url "https://github.com/owayo/token-burn/releases/download/v26.11.101/token-burn-x86_64-apple-darwin.tar.gz"
+      sha256 "87ca1bd16e61b5eab90d2f74266dbde16c696e5826a2d1810bbadb4580484c46"
     end
   end
 
